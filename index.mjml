@@ -1,0 +1,266 @@
+<mjml>
+  <mj-head>
+    <mj-style>
+      * {
+        box-sizing: border-box;
+      }
+    </mj-style>
+    <mj-style inline="inline">
+      
+
+      .section-padding {
+        padding-left: 30px;
+        padding-right: 30px;
+      }
+
+      .email-main-bg {
+        background-color: rgb(255, 255, 255);
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="#ffffff" width="480px">
+  
+    <mj-raw>
+      <!-- start of affirm-logo header -->
+    </mj-raw>
+    <mj-section css-class="email-main-bg" padding-top="35px" padding-left="10px">
+      <mj-column>
+        <mj-image src="./components/affirm-logo-img.png" href="#" align="left" width="100px" />
+      </mj-column>
+    </mj-section>
+    <mj-raw>
+      <!-- end of affirm-logo header -->
+    </mj-raw>
+    
+   
+   
+    <mj-raw>
+      <!-- start of thanks for payment and amount recieved -->
+    </mj-raw>
+    <mj-section css-class="email-main-bg" padding="0 10px 20px">
+      <mj-column>
+        <mj-text align="left" font-size="45px" font-weight="500"  padding-top="0" padding-bottom="20px">
+          <p style="color: rgb(42, 45, 50);">Thanks for your payment!</p>
+        </mj-text>
+        <mj-text align="left" font-size="18px" font-weight="200" padding-top="0" padding-bottom="8px" color="rgb(78, 86, 98);">
+          We've received your <strong style="color: rgb(60, 64, 72);">$215.44</strong> payment, Tyler.
+        </mj-text>
+
+        <mj-divider border-width="1px" border-color="rgb(213, 216, 221)" padding="15px 25px" /> 
+      </mj-column>
+    </mj-section>
+    <mj-raw>
+      <!-- end of thanks for payment and amount recieved -->
+    </mj-raw>
+
+
+    <mj-raw>
+      <!-- start of manage your payment section  -->
+    </mj-raw>
+    <mj-section css-class="email-main-bg" padding="0 10px 20px"> 
+        <mj-column width="60%">
+          <mj-text align="left" font-size="18px" font-weight="300" padding-top="0" padding-bottom="0" line-height="1.5">
+            <p style="padding: 0px;"><strong>Manage your payments, get a one-time card to use Affirm just about anywhere, and do much more in the app.</strong></p>
+          </mj-text>
+        </mj-column>
+
+        <mj-column width="40%">
+          <mj-image alt="visit-app-btn" href="#" src="./components/affirm-visit-app-btn.png" align="center" width="150px" padding-top="60px" border-radius="5%" />
+        </mj-column>
+
+        <mj-column width="100%">
+      <mj-divider border-width="1px" border-color="rgb(213, 216, 221)" padding="30px 25px 0px" /> 
+      </mj-column>
+    </mj-section>
+    <mj-raw>
+      <!-- end of manage your payment section  -->
+    </mj-raw>
+
+
+     <mj-raw>
+      <!-- start of payment details section  -->
+    </mj-raw>
+    <mj-section css-class="email-main-bg" padding="0 10px 5px">
+      <mj-column>
+        <mj-text align="left" font-size="15px" font-weight="400"  padding-top="0" padding-bottom="0">
+          <p><strong>Payment details</strong></p>
+        </mj-text>
+        
+      </mj-column>
+    </mj-section>
+    <mj-section css-class="email-main-bg" padding="0 10px 20px">
+      <mj-column width="50%">
+        <mj-text align="left" font-size="15px" font-weight="300"  padding-top="0" padding-bottom="0">
+          <p>Payment amount</p>
+        </mj-text>
+        
+      </mj-column>
+      <mj-column width="50%">
+        <mj-text align="right" font-size="15px" font-weight="300"  padding-top="0" padding-bottom="0">
+          <p><strong>$215.44</strong></p>
+        </mj-text>
+        
+      </mj-column>
+      <mj-column width="100%">
+      <mj-divider border-width="1px" border-color="rgb(213, 216, 221)" padding="20px 25px 0px" /> 
+      </mj-column>
+    </mj-section>
+
+
+ <mj-section css-class="email-main-bg" padding="0 10px 20px">
+      <mj-column width="50%">
+        <mj-text align="left" font-size="15px" font-weight="300"  padding-top="0" padding-bottom="0">
+          <p>Payment date</p>
+        </mj-text>
+        
+      </mj-column>
+      <mj-column width="50%">
+        <mj-text align="right" font-size="15px" font-weight="300"  padding-top="0" padding-bottom="0">
+          <p><strong>Nov 17, 2024</strong></p>
+        </mj-text>
+        
+      </mj-column>
+      <mj-column width="100%">
+      <mj-divider border-width="1px" border-color="rgb(213, 216, 221)" padding="20px 25px 0px" /> 
+      </mj-column>
+    </mj-section>
+
+     <mj-section css-class="email-main-bg" padding="0 10px 20px">
+      <mj-column width="50%">
+        <mj-text align="left" font-size="15px" font-weight="300"  padding-top="0" padding-bottom="0">
+          <p>Payment method</p>
+        </mj-text>
+        
+      </mj-column>
+      <mj-column width="50%">
+        <mj-text align="right" font-size="15px" font-weight="300"  padding-top="0" padding-bottom="0">
+          <p><strong>Visa - *9468</strong></p>
+        </mj-text>
+        
+      </mj-column>
+      <mj-column width="100%">
+      <mj-divider border-width="1px" border-color="rgb(213, 216, 221)" padding="20px 25px 0px" /> 
+      </mj-column>
+    </mj-section>
+
+    <mj-section css-class="email-main-bg" padding="0 10px 20px">
+      <mj-column width="50%">
+        <mj-text align="left" font-size="15px" font-weight="300"  padding-top="0" padding-bottom="0">
+          <p>Merchant</p>
+        </mj-text>
+        
+      </mj-column>
+      <mj-column width="50%">
+        <mj-text align="right" font-size="15px" font-weight="300"  padding-top="0" padding-bottom="0">
+          <p><strong>American Muscle</strong></p>
+        </mj-text>
+        
+      </mj-column>
+      <mj-column width="100%">
+      <mj-divider border-width="1px" border-color="rgb(213, 216, 221)" padding="20px 25px 0px" /> 
+      </mj-column>
+    </mj-section>
+    <mj-raw>
+      <!-- end of payment details section -->
+    </mj-raw>
+
+     <mj-raw>
+      <!-- start of approval statement section-->
+    </mj-raw>
+    <mj-section css-class="email-main-bg" padding="5px 10px 20px">
+      <mj-column>
+        <mj-text align="left" font-size="15px" font-weight="200" padding-top="0" padding-bottom="8px" color="rgb(78, 86, 98);">
+          <p>You approved this payment in the <a href="#"><strong>One-Time Payment Authorization</strong></a>.</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+     <mj-raw>
+      <!-- end of approval statement section-->
+    </mj-raw>
+
+
+    <mj-raw>
+      <!-- start of q/a section-->
+    </mj-raw>
+    <mj-section css-class="email-main-bg" padding="0 10px 20px">
+      <mj-column>
+        <mj-text align="left" font-size="15px" font-weight="200" padding-top="0" padding-bottom="5px" color="rgb(78, 86, 98);">
+          <p style="padding-bottom: 5px;"><strong>What if I canceled my purchase or returned my items?</strong></p>
+
+          <p style="line-height: 22px;">Your refund will be reflected on your Affirm account as soon as it is processed by the merchant. Any questions about your refund should be directed to the merchant.</p>
+
+
+          <p style="padding-bottom: 5px; padding-top: 30px;"><strong>Can I receive my verification code without my phone?</strong></p>
+
+          <p style="line-height: 22px;">No&mdash;you'll need your mobile phone to receive your verification code. If you're trying to make a payment, call <a href="#"><strong>(855) 423-3729</strong></a>.</p>
+
+          <p style="padding-bottom: 5px; padding-top: 30px;"><strong>What if I need more time to pay?</strong></p>
+
+          <p style="line-height: 22px;">Please make your payment as soon as possible. You won't incur any late fees, but late payments may make it harder for you to qualify for credit through Affirm in the future.</p>
+          
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-raw>
+      <!-- end of q/a section-->
+    </mj-raw>
+
+
+
+
+     <mj-raw>
+      <!-- start of use affirm anywhere img section-->
+    </mj-raw>
+    <mj-section css-class="email-main-bg" padding="0 10px 20px">
+      <mj-column>
+        
+          <mj-image alt="visit-app-btn" href="#" src="./components/affirm-download-app-img.png" align="center" padding-top="0" padding-bottom="35px" border-radius="5%" />
+          
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-raw>
+      <!-- end of use affirm anywhere img section-->
+    </mj-raw>
+
+   
+    <mj-raw>
+      <!-- start of footer section -->
+    </mj-raw>
+    <mj-section  padding="12px 12px 12px" background-color="rgb(231, 233, 234);">
+        <mj-column>
+          <mj-text align="left" font-size="15px" font-weight="200" padding-top="23px" padding-bottom="0px">
+            <p style="color: rgb(134, 140, 151);">Loan ID: <strong>WJR9-3GFTH</strong></p>
+
+            <p style="color: rgb(134, 140, 151); padding-top: 15px;">If you need help, <a href="#"><strong>visit our Help Center</strong></a>.</p>
+
+            <p style="color: rgb(134, 140, 151); padding-top: 15px; line-height: 20px;">You are receiving this email because you conducted a transaction with Affirm. Visit us at <a href="#"><strong>affirm.com</strong></a> to view our <a href="#"><strong>Terms of Service</strong></a> or our <a href="#"><strong>Privacy Policy</strong></a>.</p>
+
+          </mj-text>
+        </mj-column>
+    </mj-section>
+
+    <mj-section padding="0px 0px 35px 30px" background-color="rgb(231, 233, 234);">
+      <mj-group>
+        <mj-column width="10%">
+          <mj-image width="20px" height="20px" padding="0" src="./components/affirm-logo-icon-img-1.png" href="#"  />
+         
+        </mj-column>
+        <mj-column width="10%">
+          <mj-image width="20px" height="20px" padding="0"  src="./components/affirm-logo-icon-img-2.png" href="#"  />
+         
+        </mj-column>
+        <mj-column width="10%">
+          <mj-image width="20px" height="20px" padding="0" src="./components/affirm-logo-icon-img-3.png" href="#"  />
+         
+        </mj-column>
+      </mj-group>
+    </mj-section>
+
+
+    
+    <mj-raw>
+      <!-- end of footer section -->
+    </mj-raw>
+  </mj-body>
+</mjml>
